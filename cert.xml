@@ -1,0 +1,36 @@
+<md:EntityDescriptor xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" ID="_8825cf92c5f724e0b2784f3847122806dc6ccc1829f318787cc71e9c3c5378a8" entityID="authentik"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_8825cf92c5f724e0b2784f3847122806dc6ccc1829f318787cc71e9c3c5378a8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>5ry0+uAEcTijRSTkfBaZihnR8lNK328O+iKiPoO/gNY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>Hm0+zrj+1YRbfWkILxEO7smSK3pR3Oifz/yDqBPUA7cjzgr9yTd7Wa3We44JzUqn
+ir9VeqLcyDE7TzbE9tCbGXH4ItrD7w/YUGLiF0D9E98de1VHHN4xkM+zqClEDJSL
+urUeEA5zHrLM1Ekcee2XWJeedhf+YYWThAD3PgexdKc=</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIICjjCCAfegAwIBAgIUB7ljBejgZ2oKPYXRcTGtCp1Uq/IwDQYJKoZIhvcNAQEL
+BQAwcjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEjAQBgNVBAcM
+CVNhbiBNYXRlbzEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMRcw
+FQYDVQQDDA5jYWxpZm9ybmlhLmNvbTAeFw0yNTA3MTgxODA3NDNaFw0yNTA3MTgx
+ODA3NDNaMHIxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYD
+VQQHDAlTYW4gTWF0ZW8xITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0
+ZDEXMBUGA1UEAwwOY2FsaWZvcm5pYS5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0A
+MIGJAoGBAL/C30w4m6RaqhprLdexq8SBXRNWQ7lUwPxGPtIG31ihnYNjPXMBBTgw
+GMq6x7jBBzWtTP/2+ErE4uSoGvfkIw2u176DOPOjxyy+e8UFUpmfHkpgCqZVnDzL
+sdVLJN6ND3FEZIfzax53Ed8C5rpwDyS6PkmscJXbbK5zv5qGF6T/AgMBAAGjITAf
+MB0GA1UdDgQWBBQoJ1tTzO5pIQpZKGSKOJHNl8QKuDANBgkqhkiG9w0BAQsFAAOB
+gQBd1hCBD3QXA1C3LVdX/6aSSbROhwRLLUotyfMUYQhlsHeT8OPa9bkxPbmduqC0
+wwiEZ1Avel0KcvCvMJgTcCyjY4CruqOdOqsbihhSm/s8G879DsmZN2oWb07CatFJ
+rANW4zh73wq45dhcDppQSfoFNE6vXAQJC3MOW9aeSlL5hg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICjjCCAfegAwIBAgIUB7ljBejgZ2oKPYXRcTGtCp1Uq/IwDQYJKoZIhvcNAQELBQAwcjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEjAQBgNVBAcMCVNhbiBNYXRlbzEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMRcwFQYDVQQDDA5jYWxpZm9ybmlhLmNvbTAeFw0yNTA3MTgxODA3NDNaFw0yNTA3MTgxODA3NDNaMHIxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTYW4gTWF0ZW8xITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEXMBUGA1UEAwwOY2FsaWZvcm5pYS5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL/C30w4m6RaqhprLdexq8SBXRNWQ7lUwPxGPtIG31ihnYNjPXMBBTgwGMq6x7jBBzWtTP/2+ErE4uSoGvfkIw2u176DOPOjxyy+e8UFUpmfHkpgCqZVnDzLsdVLJN6ND3FEZIfzax53Ed8C5rpwDyS6PkmscJXbbK5zv5qGF6T/AgMBAAGjITAfMB0GA1UdDgQWBBQoJ1tTzO5pIQpZKGSKOJHNl8QKuDANBgkqhkiG9w0BAQsFAAOBgQBd1hCBD3QXA1C3LVdX/6aSSbROhwRLLUotyfMUYQhlsHeT8OPa9bkxPbmduqC0wwiEZ1Avel0KcvCvMJgTcCyjY4CruqOdOqsbihhSm/s8G879DsmZN2oWb07CatFJrANW4zh73wq45dhcDppQSfoFNE6vXAQJC3MOW9aeSlL5hg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:9000/application/saml/tfc-local/slo/binding/redirect/"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:9000/application/saml/tfc-local/slo/binding/post/"/><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:9000/application/saml/tfc-local/sso/binding/redirect/"/><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:9000/application/saml/tfc-local/sso/binding/post/"/></md:IDPSSODescriptor></md:EntityDescriptor>
